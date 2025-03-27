@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 
@@ -17,4 +18,9 @@ urlpatterns = [
     path('v1/', include(router_v1.urls)),
     path('v1/auth/', include('djoser.urls')),
     path('v1/', include('djoser.urls.jwt')),
+=======
+from django.urls import path
+
+urlpatterns = [
+>>>>>>> 5596f616f928223a336f7372d31359f311bf4a2c
 ]

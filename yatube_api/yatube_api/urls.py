@@ -11,3 +11,7 @@ urlpatterns = [
         name='redoc'
     ),
 ]
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5596f616f928223a336f7372d31359f311bf4a2c
